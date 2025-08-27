@@ -3,5 +3,5 @@ pandas
 matplotlib
 scikit-learn
 ipykernel
-tensorflow==2.15.0
+tensorflow
 streamlit
