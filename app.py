@@ -7,6 +7,8 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 
 
+st.title("Customer Churn Prediction")
+
 #Load Model
 model = load_model('model.h5')
 
@@ -46,7 +48,7 @@ input_data = {
     'EstimatedSalary': [salary]
 }
 
-st.title("Customer Churn Prediction")
+
 
 # Creating dataframe of input data
 input_data_df = pd.DataFrame(input_data)
