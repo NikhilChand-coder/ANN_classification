@@ -67,6 +67,7 @@ scaled_input = scaler.transform(input_data_df)
 prediction = model.predict(scaled_input)
 
 prediction_prob = prediction[0][0]
+
 st.write(f"Prediction probability: {prediction_prob}")
 
 #final result
