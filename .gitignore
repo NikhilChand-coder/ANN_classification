@@ -145,6 +145,7 @@ env.bak/
 venv.bak/
 myvenv
 log
+reglog
 
 # Spyder project settings
 .spyderproject
